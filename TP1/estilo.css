@@ -1,0 +1,8 @@
+body { background-color: lightskyblue; }
+.titulo {font: small-caps bold 64px "Times New Roman",serif; text-align: center; text-decoration-line:underline  ; text-decoration-style: double; text-decoration-color: white; color: white;}
+.plato {text-decoration-line: underline; font: small-caps bold 32px "Times New Roman",serif; color: white;}
+.intro{font: small-caps bold 16px "Times New Roman",serif;color: white;}
+.ing {text-decoration-line: underline; color: white;}
+.ingtext{color: white;}
+.pasos{text-decoration-line: underline; color: white;}
+.pasostext{color: white;}
