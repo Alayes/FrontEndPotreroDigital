@@ -1,8 +1,41 @@
-body { background-color: lightskyblue; }
-.titulo {font: small-caps bold 64px "Times New Roman",serif; text-align: center; text-decoration-line:underline  ; text-decoration-style: double; text-decoration-color: white; color: white;}
+body{background-color: lightskyblue; background-image: url(http://lh4.ggpht.com/_J3J9Wwie1TY/TDSrIySo_SI/AAAAAAAAHEo/UYL6XGdoplw/madera%5B2%5D.jpg?imgmax=800); 
+    background-attachment: fixed; 
+    background-position: 50% 50%;}
+
+header
+    .titulo {font: small-caps bold 64px "Times New Roman",serif; text-align: center; text-decoration-line:underline  ; text-decoration-style: double; text-decoration-color: white; color: white; background-color: black;}
+nav
+.nav1{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color:white;}
+
+.nav2{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color: white;}
+
+.nav3{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color: white;}
+
+.nav4{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color: white;}
+
+section
 .plato {text-decoration-line: underline; font: small-caps bold 32px "Times New Roman",serif; color: white;}
+
 .intro{font: small-caps bold 16px "Times New Roman",serif;color: white;}
-.ing {text-decoration-line: underline; color: white;}
+
+.foto{border: 3px black solid;}
+
+.ing{text-decoration-line: underline; color: white;}
+
 .ingtext{color: white;}
+
 .pasos{text-decoration-line: underline; color: white;}
+
 .pasostext{color: white;}
+
+.video{border: 3px black solid;}
+
+footer{position:static; bottom: 0%; width: 100%; height: 100px; background-color: burlywood; border: 5px black solid;}
+
+.contacto{float: left; font: small-caps bold 18px "Times New Roman";}
+
+.firma{text-align: center;}
+
+.ig{border: 2px white solid; float:right; }
+
+.wsp{border: 2px black solid; float:right; }
