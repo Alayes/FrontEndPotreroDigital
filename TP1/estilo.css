@@ -1,41 +1,203 @@
-body{background-color: lightskyblue; background-image: url(http://lh4.ggpht.com/_J3J9Wwie1TY/TDSrIySo_SI/AAAAAAAAHEo/UYL6XGdoplw/madera%5B2%5D.jpg?imgmax=800); 
-    background-attachment: fixed; 
-    background-position: 50% 50%;}
+body {
+    background-color: lightskyblue;
+    background-image: url(http://lh4.ggpht.com/_J3J9Wwie1TY/TDSrIySo_SI/AAAAAAAAHEo/UYL6XGdoplw/madera%5B2%5D.jpg?imgmax=800);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
 
-header
-    .titulo {font: small-caps bold 64px "Times New Roman",serif; text-align: center; text-decoration-line:underline  ; text-decoration-style: double; text-decoration-color: white; color: white; background-color: black;}
-nav
-.nav1{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color:white;}
+@media screen and { (max-width: 700px;) }
+/*nav responsive */
+.nav2 {left:;}
+.nav3 {left:}
+.nav4 {left: ;}
 
-.nav2{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color: white;}
 
-.nav3{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color: white;}
+header .titulo {
+    font: small-caps bold 64px "Times New Roman", serif;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: white;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    padding: 20px;
+}
 
-.nav4{text-decoration-line: underline; font: small-caps bold 16px "Verdana",serif; color: white;}
+nav .nav1 {
+    text-decoration-line: underline;
+    font: small-caps bold 16px "Verdana", serif;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    padding-right: 100px;
+    background-color: black;
+    padding-right: 0%;
+    margin: 10px;
+    border: 3px solid white
+}
 
-section
-.plato {text-decoration-line: underline; font: small-caps bold 32px "Times New Roman",serif; color: white;}
+.nav1:hover {
+    color: blue;
+}
 
-.intro{font: small-caps bold 16px "Times New Roman",serif;color: white;}
+.nav2 {
+    text-decoration-line: underline;
+    font: small-caps bold 16px "Verdana", serif;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: black;
+    margin-left: 10cm;
+    border: 3px solid white
+}
 
-.foto{border: 3px black solid;}
+.nav2:hover {
+    color: blue;
+}
 
-.ing{text-decoration-line: underline; color: white;}
+.nav3 {
+    text-decoration-line: underline;
+    font: small-caps bold 16px "Verdana", serif;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: black;
+    margin-left: 10cm;
+    border: 3px solid white
+}
 
-.ingtext{color: white;}
+.nav3:hover {
+    color: blue;
+}
 
-.pasos{text-decoration-line: underline; color: white;}
+.nav4 {
+    text-decoration-line: underline;
+    font: small-caps bold 16px "Verdana", serif;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: black;
+    margin-left: 10cm;
+    border: 3px solid white
+}
 
-.pasostext{color: white;}
+.nav4:hover {
+    color: blue;
+}
 
-.video{border: 3px black solid;}
 
-footer{position:static; bottom: 0%; width: 100%; height: 100px; background-color: burlywood; border: 5px black solid;}
 
-.contacto{float: left; font: small-caps bold 18px "Times New Roman";}
+section .plato {
+    text-decoration-line: underline;
+    font: small-caps bold 32px "Times New Roman", serif;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    display: inline-block;
+}
 
-.firma{text-align: center;}
+.intro {
+    font: small-caps bold 16px "Times New Roman", serif;
+    color: white;
+}
 
-.ig{border: 2px white solid; float:right; }
+.foto {
+    border: 3px black solid;
+}
 
-.wsp{border: 2px black solid; float:right; }
+.ing {
+    text-decoration-line: underline;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    display: inline-block;
+}
+
+.ingtext {
+    color: white;
+}
+
+.pasos {
+    text-decoration-line: underline;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    display: inline-block;
+}
+
+.pasostext {
+    color: white;
+}
+
+.video {
+    border: 3px black solid;
+}
+
+
+footer {
+    position: static;
+    bottom: 0%;
+    width: 100%;
+    height: 100px;
+    background-color: burlywood;
+    border: 5px black solid;
+}
+
+.contacto {
+    font: small-caps bold 18px "Times New Roman";
+    display: inline-block;
+}
+
+.contacto:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.firma {
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.firma:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.ig {
+    border: 2px white solid;
+    display: inline-block;
+    position: absolute;
+    right: 0vmax;
+    margin-bottom: 15cm;
+}
+
+.wsp {
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    right: 4vmax;
+}
+
+.paginacont {
+    font: small-caps;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-decoration-line: underline;
+}
+
+.abc {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, lfr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
