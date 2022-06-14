@@ -3,12 +3,171 @@ body {
     background-image: url(http://lh4.ggpht.com/_J3J9Wwie1TY/TDSrIySo_SI/AAAAAAAAHEo/UYL6XGdoplw/madera%5B2%5D.jpg?imgmax=800);
     background-attachment: fixed;
     background-position: 50% 50%;
+    padding: 90px 20px 0;
 }
 
 .noct:hover{color: blue;}
 
-@media screen and { (max-width: 700px;) }
+.prueba1:hover {color: blue;}
+
+@media (max-width: 768px){
+    body{
+        padding-top: 70px;
+        .sasa {
+            height: 60px;
+    
+        }
+        
+        .bars {
+            color: white;
+            background: none;
+            border: none;
+            font-size: 30px;
+            padding: 0 20px;
+            line-height: 60px;
+            display: none;
+        }
+        
+        .home {
+            font-size: 25px;
+            padding: 0 20px;
+            line-height: 60px;
+        }
+        
+        .prueba1 {
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+            background-color: grey;
+            position: fixed;
+            left: 0;
+            top: 60px;
+            width: 100%;
+            padding: 20px 0;
+            height: calc(100% - 60px);
+            overflow-y: auto;
+
+        }
+        
+        .item1 {
+            font-size: 18px;
+            margin: 0 10px;
+            line-height: 70px;
+            text-transform: uppercase;
+        
+        }
+        
+        .item2 {
+            font-size: 18px;
+            margin: 0 10px;
+            line-height: 80px;
+            text-transform: uppercase;
+        
+        }
+        
+        .item3 {
+            font-size: 18px;
+            margin: 0 10px;
+            line-height: 80px;
+            text-transform: uppercase;
+        
+        }
+        
+        .item4 {
+            font-size: 18px;
+            margin: 0 10px;
+            line-height: 80px;
+            text-transform: uppercase;
+        
+        }
+
+        .prueba1:hover{color: blue;
+        background: none;}
+        
+        .bars { 
+            display: block;
+        }
+        
+    }
+}
+
 /*nav responsive */
+.sasa {
+    background-color: lightblue;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bars {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+.navprueba {
+    display: flex;
+    justify-content: space-between;
+    max width: 992px;
+    margin: 0 auto;
+}
+
+.home {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.prueba1 {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.item1 {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+
+}
+
+.item2 {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+
+}
+
+.item3 {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+
+}
+
+.item4 {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+
+}
+
+
 
 
 
@@ -24,7 +183,11 @@ header .titulo {
     padding: 20px;
 }
 
-nav .nav1 {
+@media screen and {
+    (max-width: 700px; )
+}
+
+.nav1 {
     text-decoration-line: underline;
     font: small-caps bold 16px "Verdana", serif;
     color: white;
@@ -104,6 +267,10 @@ section .plato {
 
 .foto {
     border: 3px black solid;
+    align-items: center;
+    padding: 0 20;
+    margin: 1;
+    justify-content: space-between;
 }
 
 .ing {
@@ -160,6 +327,7 @@ footer {
     margin-left: 20cm;
 }
 
+
 .firma:hover {
     color: blue;
     text-decoration: none;
@@ -202,33 +370,42 @@ footer {
     margin-top: 90px;
 }
 
-.visita {text-decoration-line: underline;
+.visita {
+    text-decoration-line: underline;
     font: small-caps bold 32px "Times New Roman", serif;
     color: white;
     background-color: black;
     border: 3px solid white;
-    display: inline-block;}
-
-.card1{background-color: white;
-border: 3px solid black;
-display: inline-block;
-justify-content: space-between;
+    display: inline-block;
 }
 
-.card2{background-color: white;
-border: 3px solid black;
-margin-left: 5cm;
-display: inline-block;
-justify-content: space-between}
+.card1 {
+    background-color: white;
+    border: 3px solid black;
+    display: inline-block;
+    justify-content: space-between;
+}
 
-.card3{background-color: white;
-border: 3px solid black;
-margin-left: 5cm;
-display: inline-block;
-justify-content: space-between}
+.card2 {
+    background-color: white;
+    border: 3px solid black;
+    margin-left: 5cm;
+    display: inline-block;
+    justify-content: space-between
+}
 
-.card4{background-color: white;
-border: 3px solid black;
-margin-left: 5cm;
-display: inline-block;
-justify-content: space-between}
+.card3 {
+    background-color: white;
+    border: 3px solid black;
+    margin-left: 5cm;
+    display: inline-block;
+    justify-content: space-between
+}
+
+.card4 {
+    background-color: white;
+    border: 3px solid black;
+    margin-left: 5cm;
+    display: inline-block;
+    justify-content: space-between
+}
